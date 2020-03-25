@@ -1,0 +1,201 @@
+header {
+	background: #C0C0C0;
+	padding: 20px 0;
+}
+ 
+.caixa_navegacao {
+	position: relative;
+	width: 940px;	/*largura padrao da web*/
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 22px;
+}
+nav a:hover {
+	color: #CC8819;
+	text-decoration: underline;
+}
+
+/*Pagina Inicial*/
+
+.banner {
+	width: 100%;
+}
+
+.titulo_principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.img_beneficios {
+	width: 50%;
+}
+
+.utensilios {
+	width: 150px;
+	transform: rotate(90deg);
+	float: left;
+	margin: 0 30px 30px 0;
+}
+
+/*Produtos*/
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	
+	box-sizing: border-box;		/*Ajusta os espaçamentos*/
+	border: 3px solid #000000;
+	border-radius: 10px 40px 10px 40px;
+}
+
+.produtos li:hover {
+	border-color: #8888FF;
+}
+
+.produtos li:hover h2{
+	font-size: 34px;
+}
+
+.produtos li:active {
+	border-color: #00AA99;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto_descricao {
+	font-size: 18px;
+}
+
+.produto_preco {
+	font-size: 22px;
+	font-weight: bold;
+
+	margin: 10px 0;
+}
+
+/*Contato*/
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+
+}
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 10px 0 8px;
+}
+
+form select {
+	width: 30%;
+	padding:5px 0;
+	font-size: 15px;
+	border-radius: 5px;
+}
+
+.input_padrao{
+	display: block;
+	margin: 0 0 20px;
+	padding:10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar_form {
+	width: 40%;
+	padding: 15px 0;
+	color: white;
+	background: orange;
+	font-weight: bold;
+	font-size:18px;
+	border: none;
+	border-radius: 5px;
+
+	cursor: pointer;
+	transition: 1s all;
+
+}
+
+.enviar_form:hover {
+	background: darkorange;
+	transform: scale(1.1);
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid black;
+	padding: 8px 15px;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	background-image: url(../images/bg.jpg);
+	padding: 40px 0;
+}
+
+.copyright {
+	font-size: 14px;
+	color: #ffffff;
+	margin-top: 20px;
+}
