@@ -7,7 +7,7 @@ header {
 	padding: 20px 0;
 }
  
-.caixa_navegacao {
+.caixa-navegacao {
 	position: relative;
 	width: 940px;	/*largura padrao da web*/
 	margin: 0 auto;
@@ -42,7 +42,7 @@ nav a:hover {
 	width: 100%;
 }
 
-.titulo_principal {
+.titulo-principal {
 	text-align: center;
 	font-size: 2em;
 	margin: 1em 0 1em;
@@ -61,7 +61,7 @@ nav a:hover {
 	font-style: italic;
 }
 
-.img_beneficios {
+.img-beneficios {
 	width: 50%;
 }
 
@@ -109,6 +109,7 @@ nav a:hover {
 
 .produtos li:hover {
 	border-color: #8888FF;
+	height: 450px;
 }
 
 .produtos li:hover h2{
@@ -124,11 +125,11 @@ nav a:hover {
 	font-weight: bold;
 }
 
-.produto_descricao {
+.produto-descricao {
 	font-size: 18px;
 }
 
-.produto_preco {
+.produto-preco {
 	font-size: 22px;
 	font-weight: bold;
 
@@ -159,7 +160,7 @@ form select {
 	border-radius: 5px;
 }
 
-.input_padrao{
+.input-padrao{
 	display: block;
 	margin: 0 0 20px;
 	padding:10px 25px;
@@ -170,7 +171,7 @@ form select {
 	margin: 20px 0;
 }
 
-.enviar_form {
+.enviar-form {
 	width: 40%;
 	padding: 15px 0;
 	color: white;
@@ -185,7 +186,7 @@ form select {
 
 }
 
-.enviar_form:hover {
+.enviar-form:hover {
 	background: darkorange;
 	transform: scale(1.1);
 }
